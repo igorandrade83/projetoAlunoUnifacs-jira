@@ -29,5 +29,20 @@ public static Var PassaUrl() throws Exception {
  }.call();
 }
 
+/**
+ *
+ * @return Var
+ */
+// Descreva esta função...
+public static Var requestServer() throws Exception {
+ return new Callable<Var>() {
+
+   public Var call() throws Exception {
+    cronapi.util.Operations.callClientFunction( Var.valueOf("cronapi.screen.notify"), Var.valueOf("warning"), cronapi.screen.Operations.getParam(Var.valueOf("urlFoto")));
+    return Var.VAR_NULL;
+   }
+ }.call();
+}
+
 }
 
