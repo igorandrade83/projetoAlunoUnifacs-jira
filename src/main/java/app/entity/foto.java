@@ -46,7 +46,7 @@ public class foto implements Serializable {
   * @generated
   */
   @Column(name = "captura", nullable = true, unique = false, insertable=true, updatable=true)
-  @CronapiCloud(type = "dropbox", value="wsuMLzp1qxAAAAAAAAAHBkIwQ6AQ_rFBt1rqGArhi7Sisx7iDcqsP4EiWSotFHFn")
+  @CronapiCloud(type = "dropbox", value="nKzYCnc-1M8AAAAAAAAAXMUIR37jcUU6asK7SMRFB31ZCFQEXg6Na8j7hFQFcfAS")
   
   private java.lang.String captura;
 
